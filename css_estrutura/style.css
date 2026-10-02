@@ -1,0 +1,8 @@
+/* Sintaxe do CSS */
+/* seletor{
+    propriedade: valor
+} */
+
+p{
+    color:rgb(0, 205, 216);
+}

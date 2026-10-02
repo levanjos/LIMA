@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários1</title>
+</head>
+<body>
+    
+    <!--  Estrutura do Formulário -->
+      <form>
+
+        <label for="nome">Nome:</label>  <!-- Associação de texto com campo de entrada-->
+        <input type="text" name="nome" placeholder="Informe seu nome" required> <!-- campo de entrada-->
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" placeholder="Informe seu e-mail">
+
+        <label for="numero">Número:</label>
+        <input type="number" name="numero" placeholder="Informe seu número">
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" placeholder="Informe sua senha" required>
+
+        <label for="data">Data de Nascimento</label>
+        <input type="date">
+
+        <p>Escolha sua cor preferida:</p>
+        <label><input type="radio" name="cor">Rosa</label>
+        <label><input type="radio" name="cor">Verde</label>
+        <label><input type="radio" name="cor">Roxo</label>
+
+        <p>Escolha suas frutas favoritas:</p>
+        <label><input type="checkbox" name="frutas">Maça</label>
+        <label><input type="checkbox" name="frutas">Uva</label>
+        <label><input type="checkbox" name="frutas">Kiwi</label>
+
+        <button type="submit">Enviar</button>
+
+      </form>
+
+</body>
+</html>
